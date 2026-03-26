@@ -13,13 +13,13 @@ body {
     background-color: #f7f9fb;
     font-size: 14px;
     font-family: sans-serif;
-    height: 100vh;
 }
 
 .container {
     max-width: 800px;
     margin: 120px auto;
     margin-bottom: 60px;
+    height: 100vh;
 }
 
 p {
