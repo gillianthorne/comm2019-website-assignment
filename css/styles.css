@@ -146,10 +146,13 @@ footer {
     color: #d4cbe3;
 }
 
+/* timeline styling for professional-leagues */
+
 #fulltimeline {
     position: relative;
     max-width: fit-content;
     margin: 0 auto;
+    margin-bottom: -60px;
 }
 
 #fulltimeline::after {
@@ -260,4 +263,5 @@ tr:nth-child(2n) td {
 
 th, td, table, tr {
     border-collapse: collapse;
+    padding: 3px;
 }
