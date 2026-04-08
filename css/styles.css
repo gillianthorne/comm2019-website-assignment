@@ -19,20 +19,28 @@ body {
     max-width: 800px;
     margin: 120px auto;
     margin-bottom: 60px;
-    height: auto;
+    height: 100%;
+    min-height: 100vh;
 }
 
 p {
     padding: 0 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     color: #6f5a8a;
     background-color: #d4cbe3;
     font-weight: bold;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+}
+
+h3 {
+    color: #6f5a8a;
+    padding: 5px 5px 0 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 a {
@@ -111,6 +119,16 @@ nav li a#selected {
 img {
     width: 100%;
     margin: 0 auto;
+}
+
+
+.tl-photo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 0.9em;
 }
 
 em {
